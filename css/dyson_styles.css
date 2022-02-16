@@ -1,0 +1,166 @@
+body {
+	margin: 0;
+	font-family: Arial, Sans-Serif;
+}
+
+/* Navbar */
+
+.navbar {
+	width: 100%;
+	height: 60px;
+	background-color: #3b3b3b;
+}
+
+.navbar .logo {
+	padding: 0 30px;
+	line-height: 60px;
+}
+
+.navbar .logo img {
+	vertical-align: middle;
+}
+
+.hero-header {
+	width: 100%;
+	height: 350px;
+	background-image: url('../images/dyson/hero-header.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+.info {
+	width: 100%;
+	height: 320px;
+	background-color: white;
+}
+
+.info .helper {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.info .info-container {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 30px;
+}
+
+.info .info-container div {
+	font-size: 20px;
+	color: #4a4a4a;
+}
+
+.info .info-container h2 {
+	font-size: 32px;
+	color: #1b1b1b;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+.info .info-container span {
+	color: #7a7a7a;
+	font-size: 16px;
+}
+
+#img1 {
+	width: 100%;
+	height: 450px;
+	background-image: url('../images/dyson/img1.jpg');
+	background-size: cover;
+	background-position: center top;
+}
+
+#img2 {
+	width: 100%;
+	height: 450px;
+	background-image: url('../images/dyson/img2.jpg');
+	background-size: cover;
+	background-position: center top;
+	text-align: center;
+}
+
+
+#img2 .helper {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+#img2 a {
+	color: white;
+	border: 3px solid white;
+	padding: 20px 60px;
+	text-decoration: none;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+#img3 {
+	width: 100%;
+	height: 450px;
+	background-image: url('../images/dyson/img3.jpg');
+	background-size: cover;
+	background-position: center top;
+}
+
+
+@media (min-width: 768px) {
+	.col {
+		float: left;
+	}
+
+	.hero-header {
+		height: 562px;
+	}
+
+	.info {
+		height: 282px;
+	}
+
+	.info .info-container {
+		padding: 0 65px;
+	}
+
+	#img1 {
+		width: 50%;
+		height: 450px;
+	}
+
+	#img2 {
+		width: 50%;
+		height: 225px;
+	}
+
+	#img3 {
+		width: 50%;
+		height: 225px;
+	}
+}
+
+@media (min-width: 992px) {
+	.hero-header {
+		width: 50%;
+		height: 900px;
+	}
+
+	.info {
+		width: 50%;
+		height: 450px;
+	}
+
+	#img1 {
+		width: 25%;
+		height: 450px;
+	}
+
+	#img2 {
+		width: 25%;
+		height: 225px;
+	}
+
+	#img3{
+		width: 25%;
+		height: 225px;
+	}
+}
